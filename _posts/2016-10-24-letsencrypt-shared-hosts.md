@@ -55,4 +55,6 @@ Just fill in the top box with the cert.pem, the middle box with the privkey.pem 
 
 Then you can install it and test your web site with the https: instead of the http:
 
+nice!
+-chris
 

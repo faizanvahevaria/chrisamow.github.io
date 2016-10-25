@@ -17,4 +17,4 @@ Their tech support was helpful and details are here:
 
 They are working with AWS for a solution.  For now, need to disable IPv6 (on linux)
 
-
+-chris
