@@ -16,7 +16,7 @@ from collections import defaultdict
 
 
 Looking at:
-```
+```python
 	from collections import defaultdict
 	def tree(): return defaultdict(tree)
 	t = tree()
