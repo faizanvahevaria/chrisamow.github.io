@@ -16,29 +16,29 @@ from collections import defaultdict
 
 
 Looking at:
-{% highlight python %}
-from collections import defaultdict
-def tree(): return defaultdict(tree)
-t = tree()
-{% endhighlight %}
+```
+	from collections import defaultdict
+	def tree(): return defaultdict(tree)
+	t = tree()
+```
 
 It is too fragile to be very generally useful.
 As pointed out in the comments, you can't do this (nested assign):
 ```
-t['a']['b']['c'] = 'hello'
-t['a']['b']['c']['d'] = 'world'
+	t['a']['b']['c'] = 'hello'
+	t['a']['b']['c']['d'] = 'world'
 ```
 
 You have to do this (but this still seems pretty cool):
 ```
-t['a']['b']['c']['hello']
-t['a']['b']['c']['d']['world']
+	t['a']['b']['c']['hello']
+	t['a']['b']['c']['d']['world']
 ```
 
 And to wrap it up:
 ```
-import json
-print(json.dumps(t))
+	import json
+	print(json.dumps(t))
 ```
 
 
