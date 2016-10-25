@@ -16,24 +16,24 @@ from collections import defaultdict
 
 
 Looking at:
-```python
+{% highlight python %}
 	from collections import defaultdict
 	def tree(): return defaultdict(tree)
 	t = tree()
-```
+{% endhighlight %}
 
 It is too fragile to be very generally useful.
 As pointed out in the comments, you can't do this (nested assign):
-```
+{% highlight python %}
 	t['a']['b']['c'] = 'hello'
 	t['a']['b']['c']['d'] = 'world'
-```
+{% endhighlight %}
 
 You have to do this (but this still seems pretty cool):
-```
+{% highlight python %}
 	t['a']['b']['c']['hello']
 	t['a']['b']['c']['d']['world']
-```
+{% endhighlight %}
 
 And to wrap it up:
 {% highlight python %}
