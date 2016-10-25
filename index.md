@@ -6,13 +6,13 @@ tagline: really?!
 {% include JB/setup %}
 
 
-## Greetings!
+## greetings!
 
 This blog to help me keep notes of software dev interest.  Sometimes it was hard to find on google, sometimes it is so interesting I don't want to lose track...
 
 
 
-## Some musings:
+## musings:
 
 <ul class="posts">
   {% for post in site.posts %}
