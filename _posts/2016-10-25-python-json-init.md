@@ -36,10 +36,10 @@ You have to do this (but this still seems pretty cool):
 ```
 
 And to wrap it up:
-```
+~~~
 	import json
 	print(json.dumps(t))
-```
+~~~
 
 
 Is it pythonic, or is it so simple it's obsfucated, hmmmm
