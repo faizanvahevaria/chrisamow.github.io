@@ -9,10 +9,8 @@ tags : [python, json]
 
 ## an interesting and nice way to set up json
 
-https://gist.github.com/hrldcpr/2012250
-
-
-from collections import defaultdict
+I thought this was verrrry interesting...
+[One-line Tree in Python](https://gist.github.com/hrldcpr/2012250)
 
 
 Looking at:

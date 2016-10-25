@@ -9,4 +9,6 @@ the only thing that works (is the worst one!)
 {% highlight python %}
     from scipy import ndimage as nd
 {% endhighlight %}
+actually i think this is not really working - i don't think rouge is acting on it, not that it was doing anything anyway
+
 
