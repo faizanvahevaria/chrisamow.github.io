@@ -1,16 +1,14 @@
 ---
 layout: page
 title: Chris' 2sense
-tagline: sometimes you do get less than you pay for
+tagline: really?!
 ---
 {% include JB/setup %}
 
 
-## Welcome!
+## Greetings!
 
-This blog to help me keep notes of software dev interest
-
-
+This blog to help me keep notes of software dev interest.  Sometimes it was hard to find on google, sometimes it is so interesting I don't want to lose track...
 
 
 
