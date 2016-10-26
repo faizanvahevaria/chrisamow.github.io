@@ -3,6 +3,7 @@ layout: post
 category : interesting
 tagline: ""
 tags : [misc]
+comments: true
 ---
 {% include JB/setup %}
 
