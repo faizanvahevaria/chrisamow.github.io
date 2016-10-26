@@ -9,6 +9,9 @@ tags : [misc]
 
 ## come back to this stuff
 
+this should be helpful  
+http://prefetch.net/articles/checkcertificate.html  
+
 best way to implement the database for tagging,  
 comparing sqlalchemy to direct postgres  
 http://pieceofpy.com/category/sqlalchemy/2/  
