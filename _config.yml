@@ -2,6 +2,15 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
+#https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions
+defaults:
+  -
+    scope:
+      path: "" # empty means all files in the project
+    values:
+      layout: "default"
+      comments: true
+
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "assets/themes/bootstrap-3/bootstrap"]
 #directory already being watched error on bootstrap seems to be because the Listen gem
 #watches all directories and then just filters the reporting
@@ -95,7 +104,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : chrisamow-github-io
     livefyre :
       site_id : 123
     intensedebate :
