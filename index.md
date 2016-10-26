@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Chris' 2sense
+title: Chris's 2sense
 tagline: really?!
 ---
 {% include JB/setup %}
