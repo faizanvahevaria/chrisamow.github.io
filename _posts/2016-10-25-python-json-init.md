@@ -14,11 +14,11 @@ I thought this was verrrry interesting...
 
 
 Looking at:
-{% highlight python %}
+```python
 	from collections import defaultdict
 	def tree(): return defaultdict(tree)
 	t = tree()
-{% endhighlight %}
+```
 
 It is too fragile to be very generally useful.
 As pointed out in the comments, you can't do this (nested assign):
