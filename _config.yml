@@ -2,10 +2,19 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-#highlighter: pygments
-#not supported by github
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "assets/themes/bootstrap-3/bootstrap"]
+#directory already being watched error on bootstrap seems to be because the Listen gem
+#watches all directories and then just filters the reporting
+#https://talk.jekyllrb.com/t/how-to-exclude-a-file-directory-from-watch/1940/12
+#https://github.com/jekyll/jekyll-watch/blob/master/lib/jekyll/watcher.rb#L57
+#copying instead of symlinking bootstrap-3/bootstrap -> bootstrap
+
+#highlighter: pygments    #not supported by github
 highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -13,11 +22,11 @@ highlighter: rouge
 title : Chris' 2sense
 tagline: really?!
 author :
-  name : Chris
-  email : chris@amow.com
-  github : chrisamow
-  twitter : lol
-  feedburner : lol
+name : Chris
+email : chris@amow.com
+github : https://chrisamow.github.io
+twitter : lol
+feedburner : lol
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -136,8 +145,4 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
-  markdown: kramdown
-  kramdown:
-    input: GFM
-    syntax_highlighter: rouge
 
