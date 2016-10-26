@@ -79,7 +79,8 @@ h1, h2, h3, h4 {
   color: #FFF; }
 
 /* trying to get css support for rougue - modeling this after what I see working
- * here: https://github.com/cs231n/cs231n.github.io/blob/master/css/main.css
+ * here: https://github.com/mojombo/tpw/blob/master/css/syntax.css
+ * and:  https://jekyllrb.com/docs/templates/
  */
 
 /* Syntax highlighting styles */
