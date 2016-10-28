@@ -1,4 +1,5 @@
 ---
+layout: post
 category : interop
 tagline: ""
 tags : [cpp csharp]
