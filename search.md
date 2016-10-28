@@ -2,6 +2,7 @@
 layout: default
 title : Search
 group: navigation
+order: 5
 ---
 <script>
   (function() {
