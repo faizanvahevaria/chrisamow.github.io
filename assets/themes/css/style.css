@@ -147,3 +147,15 @@ h1, h2, h3, h4 {
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
+/* google custom search - search icon not showing fix
+ * http://seowebsitedesigning.com/add-google-custom-search-engine-on-your-website/
+ */
+.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2  
+{
+  border-color: #666666;
+  background-color: #CECECE;
+  background-image: none;
+  filter: none;
+  width: auto !important;
+  height: auto !important; 
+}
