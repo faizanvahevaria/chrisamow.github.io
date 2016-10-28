@@ -2,7 +2,7 @@
 layout: default
 title : Search
 group: navigation
-order: 5
+pageorder: 5
 ---
 <script>
   (function() {
