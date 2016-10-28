@@ -22,6 +22,9 @@ but need to turn it into a .vue component?
 <https://github.com/gurghet/vue-smart-table>
   
   
+<http://am2studio.hr/blog/creating-dynamic-table-with-vue-js>
+  
+  
 <https://github.com/ratiw/vue-table>  
   
   
