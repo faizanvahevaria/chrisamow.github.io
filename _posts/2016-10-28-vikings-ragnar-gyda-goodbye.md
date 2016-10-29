@@ -1,9 +1,9 @@
 ---
-category : misc
+layout: post
+category: misc
 tagline: ""
-tags : [misc]
+tags: [misc]
 ---
-{% include JB/setup %}
 
 
 ## The most moving scene I can remember 

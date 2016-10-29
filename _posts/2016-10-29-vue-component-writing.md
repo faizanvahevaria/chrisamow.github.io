@@ -1,8 +1,8 @@
 ---
 layout: post
-category : vue
+category: vue
 tagline: ""
-tags : [vue, components]
+tags: [vue, components]
 ---
 
 

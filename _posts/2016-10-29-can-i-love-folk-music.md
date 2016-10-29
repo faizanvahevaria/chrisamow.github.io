@@ -2,7 +2,7 @@
 layout: post
 category : music
 tagline: ""
-tags : [music, machinelearning]
+tags : [tensorflow, music, machinelearning]
 ---
 
   
