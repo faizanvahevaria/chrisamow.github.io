@@ -11,6 +11,9 @@ tags : [vue datagrid]
 unlucky contestants soon!  or will i be ruining them - well i hope not, lol  
 i expect to be updating this more.  
   
+track this: <http://forum.vuejs.org/t/editable-grid-component/2334>
+  
+
 favorite so far, editable seems to work well...  
 but need to turn it into a .vue component?  
 <https://codepen.io/andrewcourtice/pen/VabXQV>
