@@ -8,12 +8,12 @@ tags: [vue, glossary]
 Generating this from a list for convenience, not beauty - will be a living doc.  in my words, so [maybe](https://www.youtube.com/watch?v=G2y8Sx4B2Sk)
   
 ---
-  
 
-
-ajax example : simple example using axios and lodash  <http://vuejs.org/guide/computed.html#Watchers>
+ajax example : simple example using axios and lodash  <http://vuejs.org/guide/computed.html#Watchers>   Note: vue-resource provides ajax functionality
 
 auto prefixing : When you use a CSS property that requires vendor prefixes in ```v-bind:style```, for example ```transform```, Vue will automatically detect and add appropriate prefixes to the applied styles
+
+beginner gotchas : <https://vuejs.org/2016/02/06/common-gotchas/>
 
 comparison : <https://v1.vuejs.org/guide/comparison.html>
 
@@ -21,11 +21,11 @@ component caching : components will only be rerendered if the state upon which t
 
 component : in vue, a [component](http://vuejs.org/guide/components.html) is a vue instance representing a custom html element with pre-defined options.  Registering a component in Vue is [straightforward](http://vuejs.org/guide/index.html#Composing-with-Components)  
 
-computed getter : read vue data
+computed getter/setter : read and write vue data without side effects
 
 computed property : user vue function to expose transformed access to vue data.  note the missing parentheses.  The difference (since it will work as a normal function with the parens) is that the computed properties are cached based on their dependencies
 
-computed setter : write vue data
+curated awesome things : <https://github.com/vuejs/awesome-vue>
 
 custom elements : part of the Web Components Spec - vue components are loosely modeled after the spec, but with key differences
 
@@ -33,7 +33,7 @@ declarative rendering : [you specify what you want, the system figures out how t
 
 directive : prefixed with v- (special attributes provided by vue applying special reactive behavior to the rendered DOM)  It is expected to be a single javascript expresion, with the exception of v-for
 
-ecosystem : [vue.js ecosystem](https://v1.vuejs.org/guide/application.html)
+ecosystem : [vue.js ecosystem](https://v1.vuejs.org/guide/application.html),  [list](https://github.com/vuejs/awesome-vue#user-content-development-tools)
 
 event modifiers : v-on abstraction for stop, prevent, capture, self - think event.preventDefault() or event.stopPropagation()
 
@@ -69,9 +69,11 @@ symbol dollar : In addition to data properties, Vue instances expose a number of
 
 symbol double mustaches : data is plain text, not html
 
-template : all vue templates are spec compliant valid html. they are converted into DOM render functions. Combined with the reactivity system, Vue is able to intelligently figure out the minimal amount of components to re-render and apply the minimal amount of DOM manipulations when the app state changes
+template : all vue templates are spec compliant [valid html](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). they are converted into DOM render functions. Combined with the reactivity system, Vue is able to intelligently figure out the minimal amount of components to re-render and apply the minimal amount of DOM manipulations when the app state changes
 
 virtual dom : a parallel representation of the DOM optimized so that final rendering is fast and efficient
+
+vue-cli : scaffolding for quick battery included project start [usage](https://vuejs.org/2015/12/28/vue-cli/)  use it with the [vuejs-templates](https://github.com/vuejs-templates)
 
 v-bind : directive ```<a v-bind:href="url"></a>``` (shorthand) ```<a :href="url"></a>```.  Mustaches cannot be used inside HTML attributes, instead use a v-bind directive  ```v-bind:id="dynamicId"```.  It also works for boolean attributes - the attribute will be removed if the condition evaluates to a falsy value:```v-bind:disabled="someDynamicCondition"```   e.g. keep this elements title attribute up-to-date with the message property of on the vue instance.  there are [special enhancements for class and style and arrays](http://vuejs.org/guide/class-and-style.html)
 
@@ -97,9 +99,5 @@ weex : "react native for vue" - [cross platform framework](http://alibaba.github
 
 zero config time travel : the chrome vue extension supports [time travel](https://onsen.io/blog/content/images/2016/Jun/react_redux_devtools_time_travel.gif) as is.  It lets you replay actions/mutations and export them for developer collaboration
 
-  
-
-  
-
-<!--  easiest way to use this for each definition, add at the top a (possibly long) single line entry with md embedded.  For double spaced results, "sort -V -t":" vue-glossary.md | sed G > text.md"  Unfinished terms can be found looking for ":  "    -->
+<!--  easiest way to use this for each definition, add at the top a (possibly long) single line entry with md embedded.  For double spaced results, (sort, remove blank lines, double space) sort -V -f -t":" unsorted-vue-glossary.md | awk 'NF' | sed G > vue-glossary-sorted.md; grip vue-glossary-sorted.md    Unfinished terms can be found looking for ":  "    -->
 
