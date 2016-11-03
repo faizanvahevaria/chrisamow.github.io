@@ -2,12 +2,13 @@
 layout: post
 title: "quickie vue glossary"
 category: vue
-tags: [vue, glossary]
+tags: [vue, glossary, index]
 ---
   
 Generating this from a list for convenience, not beauty - will be a living doc.  in my words, so [maybe](https://www.youtube.com/watch?v=G2y8Sx4B2Sk)
   
 ---
+
 
 ajax example : simple example using axios and lodash  <http://vuejs.org/guide/computed.html#Watchers>   Note: vue-resource provides ajax functionality
 
@@ -15,11 +16,13 @@ auto prefixing : When you use a CSS property that requires vendor prefixes in ``
 
 beginner gotchas : <https://vuejs.org/2016/02/06/common-gotchas/>
 
+comparison with python : [syntax](https://gist.github.com/revolunet/537a3448cff850231a74)
+
 comparison : <https://v1.vuejs.org/guide/comparison.html>
 
 component caching : components will only be rerendered if the state upon which they are based has been mutated
 
-component : in vue, a [component](http://vuejs.org/guide/components.html) is a vue instance representing a custom html element with pre-defined options.  Registering a component in Vue is [straightforward](http://vuejs.org/guide/index.html#Composing-with-Components)  
+component : in vue, a [component](http://vuejs.org/guide/components.html) is a vue instance representing a custom html element with pre-defined options.  Registering a component in Vue is [straightforward](http://vuejs.org/guide/index.html#Composing-with-Components)  Using a build tool like Webpack or Browserify, a component can exist in a single [.vue file](https://vuejs.org/guide/single-file-components.html)
 
 computed getter/setter : read and write vue data without side effects
 
@@ -35,9 +38,17 @@ directive : prefixed with v- (special attributes provided by vue applying specia
 
 ecosystem : [vue.js ecosystem](https://v1.vuejs.org/guide/application.html),  [list](https://github.com/vuejs/awesome-vue#user-content-development-tools)
 
+el : a mount point option, referring to an element or CSS selector, used when creating a vue instance. Can then be accessible as vm.$el.  Do not mount to ```<html> or <body>``` 
+
 event modifiers : v-on abstraction for stop, prevent, capture, self - think event.preventDefault() or event.stopPropagation()
 
 examples : [hackernews clone](https://github.com/vuejs/vue-hackernews)
+
+extends : allows declaratively extending another component without having to use Vue.extend. compared to mixins, a component using extends has its own options take a higher priority than the component being extended.
+
+flux : [unidirectional data flow architecture](https://facebook.github.io/flux/docs/overview.html) used instead of architectures like MVC or MVVM (often used by vue apps)
+
+functional component : [a stateless component](https://vuejs.org/guide/render-function.html#Functional-Components) (no data) and instanceless (no this context).  Simply a render function that returns virtual nodes making them cheaper to render.
 
 interpolation - evaluation of string result after filling in placeholders
 
@@ -51,17 +62,29 @@ lifecycle diagram : <http://vuejs.org/guide/instance.html#Lifecycle-Diagram>
 
 lifecycle hooks : enable custom functionality at important parts of the vue lifecycle.  Including: mounted, updated, destroyed.  In vue there are no controllers, custom logic for a component would go in the lifecycle hooks.  See lifecycle diagram
 
+mixin : [functionality](https://vuejs.org/guide/mixins.html) that adds functionality to objects.  not intended to be used standalone.  similar to extends
+
 mutation methods : for array change detection: push, pop, shift, unshift, splice, sort, reverse. The following are undetectable: directly setting with index, modifying .length.  Computed properties should be used for sorting and filtering
 
 mvvm : design pattern - vue design does not exactly match it, but it was inspired by it
 
+npm : nodejs package manager - manages node modules within a specific version of nodejs.  use this to install vue-cli.  pay attention to the npm install -g option.  [it can even be used as a build tool](https://www.sitepoint.com/guide-to-npm-as-a-build-tool/?utm_source=sitepoint&utm_medium=relatedinline&utm_term=&utm_campaign=relatedauthor)
+
+nvm : nodejs version manager - manages different versions of nodejs on your machine, use this to get your npm
+
+option : members of the vue object set at creation time that control the vue behavior
+
 progressive framework : A view layer only core library with incrementally adoptable ecosystem of supporting libraries
+
+promise : [js result of an async computation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), [basics](https://scotch.io/tutorials/understanding-javascript-promises-pt-i-background-basics), [pitfalls](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html?utm_source=javascriptweekly)
 
 proxies : vue instance proxies all properties found in its data object e.g. vm.a === data.a // -> true  It should be noted that only these proxied properties are reactive. If you attach a new property to the instance after it has been created, it will not trigger any view updates
 
 reactive : structured data flow with specific limited methods of mutation that facilitates robust handling of complicated async data streams.  conceptually related to functional programming
 
 render function : direct generation of html for cases where the templates are not well suited
+
+sass :  [a css extension](http://sass-lang.com/) requiring [preprocessor support](https://vue-loader.vuejs.org/en/configurations/pre-processors.html)
 
 server side rendering : with some [extra steps](https://vuejs.org/guide/ssr.html), the vue app can have the web server emit the page html so seo and other static page benefits can still work
 
@@ -72,6 +95,8 @@ symbol double mustaches : data is plain text, not html
 template : all vue templates are spec compliant [valid html](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). they are converted into DOM render functions. Combined with the reactivity system, Vue is able to intelligently figure out the minimal amount of components to re-render and apply the minimal amount of DOM manipulations when the app state changes
 
 virtual dom : a parallel representation of the DOM optimized so that final rendering is fast and efficient
+
+vueex : the official vue flux-like implementation library
 
 vue-cli : scaffolding for quick battery included project start [usage](https://vuejs.org/2015/12/28/vue-cli/)  use it with the [vuejs-templates](https://github.com/vuejs-templates)
 
