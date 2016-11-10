@@ -17,4 +17,4 @@ TL;DW learn the major smile  :)
 bonus: what do seal, deadmaus, zedd and seal have in common
   
   
-<https://www.youtube.com/watch?v=M6L5_i5q_9Y>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M6L5_i5q_9Y" frameborder="0" allowfullscreen></iframe>
