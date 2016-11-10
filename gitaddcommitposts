@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#making it easy to upload posts to keep friction to a minimum
+git add _posts/ && git commit -m "blog content" && git push origin master
+
