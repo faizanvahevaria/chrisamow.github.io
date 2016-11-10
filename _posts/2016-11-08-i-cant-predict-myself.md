@@ -11,7 +11,7 @@ i am not sure how i missed the cool things this Conte guy does - the dangers of 
   
 was that a kids toy xylo set?!  
   
-nice bass line at the end...  
+nice bass line at the end...i am gonna leverage that!  
   
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SW0ulJ5QCcw" frameborder="0" allowfullscreen></iframe>
