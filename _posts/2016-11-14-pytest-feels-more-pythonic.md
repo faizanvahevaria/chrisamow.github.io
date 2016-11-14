@@ -11,5 +11,8 @@ not surprisingly, I like using [py.test](pytest.org) (import pytest) instead of 
   
 some good py.test commandline options:
 <http://www.tilcode.com/pytest-cli-tips-tricks-settings/>
- 
+  
+  
+it sure is very actively maintained...  
+<https://bitbucket.org/pytest-dev/profile/members>
 
