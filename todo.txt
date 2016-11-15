@@ -13,6 +13,3 @@ actually i think this is not really working - i don't think rouge is acting on i
 
 =================
 
-search is not implemented?
-https://github.com/christian-fei/Simple-Jekyll-Search
-
