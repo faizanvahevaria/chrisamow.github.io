@@ -9,7 +9,8 @@ tagline: really?!
 ## greetings!
 
 This blog to help me keep notes of software dev interest.  Sometimes it was hard to find on google, sometimes it is so interesting I don't want to lose track or sometimes it's a process or code I know I'll want to refer back to in the future.  
-
+The fractal yin yang I inverted is by [memloch](http://memloch.deviantart.com/art/Yin-Yang-Fractal-94871319)
+  
 
 
 ## musings:
