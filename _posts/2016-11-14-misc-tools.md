@@ -20,5 +20,25 @@ nice static checker <https://github.com/PyCQA/pyflakes>
   
 ffmpeg, no avconv, no ffmpeg - actual conversion below from camcorder to mp4
 ffmpeg -i 00024.MTS -vcodec mpeg4 -b:v 15M -acodec libmp3lame -b:a 192k aelan.mp4
+  
+  
+# pip stuff
+  
+[pytest-pudb](https://pypi.python.org/pypi/pytest-pudb)
+```
+py.test --pudb
+#or in the code
+```
+```
+def test_set_trace_integration():
+    # No --capture=no need
+    import pudb
+    pudb.set_trace()
+    assert 1 == 2
 
-
+def test_pudb_b_integration():
+    # No --capture=no need
+    import pudb.b
+    # traceback is set up here
+    assert 1 == 2
+```
