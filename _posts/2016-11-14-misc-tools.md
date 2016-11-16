@@ -15,4 +15,10 @@ unbelievably in 2016, exif rotation data is not uniformly followed, so you may n
 exiftool -all= some.jpg
   
   
+nice static checker <https://github.com/PyCQA/pyflakes>
+  
+  
+ffmpeg, no avconv, no ffmpeg - actual conversion below from camcorder to mp4
+ffmpeg -i 00024.MTS -vcodec mpeg4 -b:v 15M -acodec libmp3lame -b:a 192k aelan.mp4
+
 
