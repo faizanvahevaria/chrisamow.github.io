@@ -22,6 +22,10 @@ ffmpeg, no avconv, no ffmpeg - actual conversion below from camcorder to mp4
 ffmpeg -i 00024.MTS -vcodec mpeg4 -b:v 15M -acodec libmp3lame -b:a 192k aelan.mp4
   
   
+cling - repl for cpp  
+<https://github.com/vgvassilev/cling>  
+  
+  
 # pip stuff
   
 [pytest-pudb](https://pypi.python.org/pypi/pytest-pudb)
