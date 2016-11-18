@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "thanks california"
-description: ""
-category: 
-tags: []
+category: devenv
+tags: [certificates, devenv, dev]
 comments: true
 ---
 {% include JB/setup %}
@@ -19,4 +18,7 @@ several potential fixes involved linking in various other paths, this is what wo
 	sudo apt-get install ca-certificates
 	sudo mkdir -p /etc/pki/tls/certs
 	sudo ln -s /etc/ssl/certs/ca-certificates.crt /etc/pki/tls/certs/ca-bundle.crt
+  
+  
+btw, this also fixes the issue with carina/rackspace setup
 
