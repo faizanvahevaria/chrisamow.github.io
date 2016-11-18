@@ -12,14 +12,14 @@ accumulating random tools that are reinstalled just frequently enough so that al
   
 unbelievably in 2016, exif rotation data is not uniformly followed, so you may need to strip it and transform the image data...  
 [exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/) can be apt installed.  
-exiftool -all= some.jpg
+	exiftool -all= some.jpg
   
   
 nice static checker <https://github.com/PyCQA/pyflakes>
   
   
-ffmpeg, no avconv, no ffmpeg - actual conversion below from camcorder to mp4
-ffmpeg -i 00024.MTS -vcodec mpeg4 -b:v 15M -acodec libmp3lame -b:a 192k aelan.mp4
+ffmpeg, no avconv, no ffmpeg - actual conversion below from camcorder to mp4  
+	ffmpeg -i 00024.MTS -vcodec mpeg4 -b:v 15M -acodec libmp3lame -b:a 192k aelan.mp4
   
   
 cling - repl for cpp  
@@ -28,12 +28,10 @@ cling - repl for cpp
   
 # pip stuff
   
-[pytest-pudb](https://pypi.python.org/pypi/pytest-pudb)
-```
-py.test --pudb
-#or in the code
-```
-```
+[pytest-pudb](https://pypi.python.org/pypi/pytest-pudb)  
+	py.test --pudb
+	#or in the code
+  
 def test_set_trace_integration():
     # No --capture=no need
     import pudb
