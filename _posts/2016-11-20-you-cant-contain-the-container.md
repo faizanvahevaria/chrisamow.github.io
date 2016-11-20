@@ -12,7 +12,7 @@ I thought I was excited... but [this jinkit guy Openstack-Ansible: Openstack Con
   
 wow!
   
-<https://www.youtube.com/v/V80-gPkpH6M?start=317&end=323>
+<https://www.youtube.com/v/V80-gPkpH6M?start=317&end=323&autoplay=1>
   
 I love it when all the tools I love converge and there is no stitching of things or adaptation needed.  No compromise.  Just awesomeness.  
 (although it usually means I waited too long lol)
