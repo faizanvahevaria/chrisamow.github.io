@@ -7,7 +7,7 @@ comments: true
 ---
 {% include JB/setup %}
   
-I thought I was excited... but [this jinkit guy Openstack-Ansible: Openstack Containerized](http://www.jinkit.com/openstack-ansible/)
+I thought I was excited... but [this Brandon guy jinkit-Openstack-Ansible: Openstack Containerized](http://www.jinkit.com/openstack-ansible/)
   
 wow!
   
