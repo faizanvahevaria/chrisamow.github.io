@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "you cant contain the container"
-description: ""
-category: 
-tags: []
+category: containers
+tags: [docker, devenv, containers]
 comments: true
 ---
 {% include JB/setup %}
