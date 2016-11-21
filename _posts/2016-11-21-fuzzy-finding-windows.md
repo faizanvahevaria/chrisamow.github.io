@@ -14,5 +14,5 @@ alias winact='xdotool windowactivate $(wmctrl -l | fzf | cut -d\  -f1 )'
   
   
   
-<img src="/images/screen_fzf_winact.gif" width="600" >
+<img src="/images/screen_fzf_winact.gif" width="1000" >
 
