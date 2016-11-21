@@ -6,7 +6,7 @@ tags: [fzf]
 comments: true
 ---
 {% include JB/setup %}
-fzf, truly awesome.  
+[fzf](https://github.com/junegunn/fzf), truly awesome.  
   
 
 #two spaces after the -d backslash, avoiding nested quote hell
