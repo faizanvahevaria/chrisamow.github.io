@@ -28,6 +28,9 @@ cling - repl for cpp
 <https://github.com/vgvassilev/cling>  
   
   
+byzanz - screencast to animated gif (apt-get)
+  
+  
 # pip stuff
   
 [pytest-pudb](https://pypi.python.org/pypi/pytest-pudb)  

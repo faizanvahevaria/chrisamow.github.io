@@ -15,4 +15,6 @@ comments: true
   
   
 <img src="/images/screen_fzf_winact.gif" width="1000" >
-
+  
+finally, my bad habit of opening new browser windows instead of tabs pays off!
+  
