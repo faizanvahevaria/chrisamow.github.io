@@ -10,7 +10,8 @@ fzf, truly awesome.
   
 
 #two spaces after the -d backslash, avoiding nested quote hell
-alias winact='xdotool windowactivate $(wmctrl -l | fzf | cut -d\  -f1 )'
+  
+	alias winact='xdotool windowactivate $(wmctrl -l | fzf | cut -d\  -f1 )'
   
   
   
