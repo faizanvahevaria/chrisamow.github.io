@@ -8,9 +8,8 @@ comments: true
 {% include JB/setup %}
 [fzf](https://github.com/junegunn/fzf), truly awesome.  
   
-
-#two spaces after the -d backslash, avoiding nested quote hell
   
+	#two spaces after the -d backslash, avoiding nested quote hell
 	alias winact='xdotool windowactivate $(wmctrl -l | fzf | cut -d\  -f1 )'
   
   
