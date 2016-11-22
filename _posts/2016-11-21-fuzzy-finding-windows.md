@@ -16,5 +16,8 @@ comments: true
   
 <img src="/images/screen_fzf_winact.gif" width="1000" >
   
-finally, my bad habit of opening new browser windows instead of tabs pays off!
+finally, my bad habit of opening new browser windows instead of tabs pays off!  
+it may seem silly, but despite trying to limit myself, I often have a few dozen windows open each on 2 or more browser(s)/instances...
+  
+(I changed away from using xdotool, to using just wmctrl after I did the screen capture.)
   
