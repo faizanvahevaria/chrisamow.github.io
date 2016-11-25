@@ -19,7 +19,8 @@ pythonanywhere - used them before, I need to try them again and see what this sh
   
 carina/rackspace beta free
   
-
+cloudatcost - very low cost, (you get what you pay for?) vps - a special right now, half off $35 one time fee for 1 core, 512MB RAM, 10GB SSD
+  
 rackspace - Rackspace offers up to $2,000 per month in free hosting for 12 months for qualified 
   
 <http://www.rackspacestartups.com/>
