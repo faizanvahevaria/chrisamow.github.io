@@ -6,7 +6,7 @@ tags: [fzf]
 comments: true
 ---
 {% include JB/setup %}
-[fzf](https://github.com/junegunn/fzf), truly awesome.  
+[fzf](https://github.com/junegunn/fzf), truly awesome.  Here's what I did to get window selection working when the unruly list on my taskbar is out of control  
   
   
 	#two spaces after the -d backslash, avoiding nested quote hell
