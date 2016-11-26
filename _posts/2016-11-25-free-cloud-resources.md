@@ -25,4 +25,6 @@ rackspace - Rackspace offers up to $2,000 per month in free hosting for 12 month
   
 <http://www.rackspacestartups.com/>
   
+<surge.sh> static only, commandline, deploy anything in 6 keystrokes
+  
 
