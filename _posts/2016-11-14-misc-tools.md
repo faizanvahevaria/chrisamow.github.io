@@ -50,3 +50,9 @@ byzanz - screencast to animated gif (apt-get)
 	    assert 1 == 2
 	  
 [grip](https://github.com/joeyespo/grip) markdown previewer
+  
+  
+click - easy commandline interface with help generation
+  
+  
+
