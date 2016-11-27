@@ -26,3 +26,4 @@ Unfortunately, the console (View / Show Control Script Console) doesn't reveal a
 Hopefully I find a way to get more debug info.  I am posting this partly because some people think that padkontrol doesn't work with bitwig at all, but at least I can use the pads now without the 2 midi knob controllers and xy pad.
   
 Just remember that the padkontrol C2 will trigger C1 on bitwig (everything is an octave lower).  At least it's nice that you don't need any drivers on linux with alsa built-in support.
+(even though it doesn't seem to show when doing a "aplaymidi -l" )
