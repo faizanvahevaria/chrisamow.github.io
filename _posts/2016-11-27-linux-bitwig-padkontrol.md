@@ -23,7 +23,7 @@ The only thing that does work is adding it manually as a Generic MIDI Keyboard a
   
 Unfortunately, the console (View / Show Control Script Console) doesn't reveal anything in either case.  It actually crashed on me one time.  And doing a restart there seems to cause the program to terminate instead of doing a controllers reinit.
   
-Hopefully I find a way to get more debug info.  I am posting this partly because some people think that padkontrol doesn't work with bitwig at all, but at least I can use the pads now without the 2 midi knob controllers and xy pad.
+Hopefully I find a way to get more debug info.  I am posting this partly because some people think that padkontrol doesn't work with bitwig at all, but at least I can use the pads and xy controller now, without the 2 midi knob controllers.  I'm surprised the roll and flam functionality doesn't seem to work - I thought that would be on device generated midi.
   
 Just remember that the padkontrol C2 will trigger C1 on bitwig (everything is an octave lower).  At least it's nice that you don't need any drivers on linux with alsa built-in support.
 (even though it doesn't seem to show when doing a "aplaymidi -l" )
