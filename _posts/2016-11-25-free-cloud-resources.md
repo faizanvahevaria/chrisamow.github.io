@@ -27,10 +27,8 @@ rackspace - Rackspace offers up to $2,000 per month in free hosting for 12 month
   
 <surge.sh> static only, commandline, deploy anything in 6 keystrokes
   
-firebase - Realtime Database
-Simultaneous connections : 100
-GB stored : 1 GB
-GB downloaded : 10 GB
+firebase - mobile backend as a service
+Realtime nosql database - Simultaneous connections : 100, GB stored : 1 GB, GB downloaded : 10 GB,  
 unlimited hosting?
   
 
