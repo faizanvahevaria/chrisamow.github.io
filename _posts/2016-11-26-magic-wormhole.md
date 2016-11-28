@@ -21,6 +21,7 @@ I don't feel as guilty not being pep8 compliant (or pycodestyle or...) - I like 
   
   
 note to myself, investigate this (service_identity, pyOpenSSL, libsodium-dev all installed):
+  
 ```
 ➜  work  ★ wormhole send nested.py                                                      [0] 8:32:45
 Traceback (most recent call last):
@@ -52,4 +53,4 @@ Traceback (most recent call last):
     from nacl._sodium import ffi, lib
 ImportError: /home/chris/anaconda/lib/python2.7/site-packages/nacl/_sodium.so: undefined symbol: crypto_sign_ed25519_pk_to_curve25519
 ```
-
+  
