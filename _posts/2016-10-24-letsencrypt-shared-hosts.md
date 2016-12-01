@@ -58,3 +58,6 @@ Then you can install it and test your web site with the https: instead of the ht
 nice!
 -chris
 
+
+2016-11-30 [even stronger secureness](https://gist.github.com/mapmeld/a9bcac46d1f486f81664814a799e5897)
+
