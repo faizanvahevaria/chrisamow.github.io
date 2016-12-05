@@ -31,6 +31,9 @@ cling - repl for cpp
 byzanz - screencast to animated gif (apt-get)
   
   
+mosh - limited mobile high latency ssh-like - apt-get single install for server/client
+  
+  
 # pip stuff
   
 [pytest-pudb](https://pypi.python.org/pypi/pytest-pudb)  
