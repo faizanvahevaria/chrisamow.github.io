@@ -31,4 +31,7 @@ firebase - mobile backend as a service
 Realtime nosql database - Simultaneous connections : 100, GB stored : 1 GB, GB downloaded : 10 GB,  
 unlimited hosting?
   
+storage only "1/4" of the cost
+<https://www.backblaze.com/b2/cloud-storage-pricing.html>
+  
 
