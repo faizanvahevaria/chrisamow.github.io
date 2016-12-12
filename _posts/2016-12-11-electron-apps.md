@@ -2,11 +2,11 @@
 layout: post
 title: "electron apps"
 category: javascript
-tags: [electron, framework, github]
+tags: [electron, framework, cpp, github]
 comments: true
 ---
 {% include JB/setup %}
-I've been hearing more and more about electron this year and didn't realize how many apps are written in it...  It didn't occur to me that Visual Studio Code would be written in it!
+I've been hearing more and more about electron this year and didn't realize how many apps are written in it...(I can't believe it is over 3 years old!)  It didn't occur to me that Visual Studio Code would be written in it!
   
 <http://electron.atom.io/apps/>
   
