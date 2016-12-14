@@ -12,3 +12,4 @@ SQL for the filesystem - [Crab](http://etia.co.uk/)
   
 Oh man, that looks sweet!!
 
+(I had forgotten about WinFS SQL stuff, but it seems like it has not gained traction...)
