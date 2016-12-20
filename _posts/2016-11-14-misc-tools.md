@@ -57,5 +57,12 @@ mosh - limited mobile high latency ssh-like - apt-get single install for server/
   
 click - easy commandline interface with help generation
   
-  
+
+To save:
+
+pip install --download=/path/to/save -r requirements.txt
+
+And to restore
+
+pip install --no-index --find-links=/path/to/save -r requirements.txt
 
