@@ -8,6 +8,10 @@ comments: true
 {% include JB/setup %}
 
 There are so many cool free cloud resources out there, trying to track them better:
+
+check these out too
+<https://github.com/255kb/stack-on-a-budget>
+
   
 30 minutes 32 cores, 32GB RAM, github integration
 <https://circleci.com>
