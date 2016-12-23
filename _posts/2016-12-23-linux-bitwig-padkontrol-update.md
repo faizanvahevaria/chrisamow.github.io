@@ -9,7 +9,7 @@ comments: true
   
 I've seen many variations of instructions out there which partially work, so I'll leave notes on what worked for me.
   
-GOAL: get audio working simultaneously from bitwig and the rest of the apps (so you can play along to youtube songs to drum along for example)
+#GOAL: get audio working simultaneously from bitwig and the rest of the apps (so you can play along to youtube songs to drum along for example)
   
 note that it may be intuitively tempting to skip jack and just use alsa since it has supported mixing for a while: 1. my usb sound interface always goes into distortion mode eventually (within a half hour of playing or if you go in/out of suspend mode; 2. I think you have to hardcode configure the various apps to do the mixing
 
@@ -42,8 +42,12 @@ pavucontrol &
 #then set the apps to use the pulseaudio-alsa
 ```
 
-
-GOAL: get the padkontrol to work on bitwig
+It is interesting and odd to see the sounds triggered by the padkontrol showing up as network traffic on my system monitor (yes I checked 3 times to make sure it wasnt the cpu)!!
+  
+  
+  
+  
+#GOAL: get the padkontrol to work on bitwig
   
 As noted by others, the built-in script for padkontrol does not seem to work at all, but the generic one does.
     
