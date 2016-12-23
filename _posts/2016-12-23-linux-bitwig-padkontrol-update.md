@@ -49,5 +49,10 @@ As noted by others, the built-in script for padkontrol does not seem to work at 
     
 What I've found is that if you start with the generic one you can then do an auto detect and it finds the padkontrol and sets it up!  (In the control script console you'll see the init() and exit() called for the generic script.)  Something is still not quite right, the padkontrol status says "drN" and the Assign light/mode for control knob 2 is locked on.  The good thing is that the pads are mapped to C1 to D#2 (lower left to upper right) so you don't have to remap them every time you plug in - which is the biggest usability problem since the padkontrol doesn't have persistent onboard storage.  The worst problem is that because it is locked in some funny mode you can't change the velocity curves and can't do scene changes.
   
+ it sets it up as:
+      -> padKontrol MIDI 1
+         padKontrol MIDI 3
+      <- padKontrol MIDI 2
+  
 When I know more and am sure it is repeatable I'll post on some of the sites where people are posting problems.
 
