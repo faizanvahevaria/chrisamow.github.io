@@ -12,7 +12,7 @@ I like the proxy option so you can check the actual connection strings but [debu
   
   
 ## service account
-You need to make a [service account](https://cloud.google.com/sql/docs/sql-proxy#authentication-options)  <https://console.cloud.google.com/iam-admin/serviceaccounts/project?project=hijo-154008>
+You need to [create](https://cloud.google.com/sql/docs/sql-proxy#create-service-account) a [service account](https://cloud.google.com/sql/docs/sql-proxy#authentication-options)  <https://console.cloud.google.com/iam-admin/serviceaccounts/project?project=hijo-154008>
   
 The directions there are good, so I moved the .json file to the app directory and it works:
 
