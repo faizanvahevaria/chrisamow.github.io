@@ -21,7 +21,7 @@ The directions there are good, so I moved the .json file to the app directory an
    
 ## connection string
 
-[sqlalchemy docs](http://docs.sqlalchemy.org/en/latest/dialects/mysql.html?highlight=appengine#module-sqlalchemy.dialects.mysql.mysqldb) say the connection string needs to be:
+[sqlalchemy docs](http://docs.sqlalchemy.org/en/latest/dialects/mysql.html?highlight=appengine#module-sqlalchemy.dialects.mysql.mysqldb) has a section specifically for gae and it says the connection string needs to be:
 mysql+mysqldb://root@/<dbname>?unix_socket=/cloudsql/\<projectid\>:\<instancename\>
 
 So my setup looks like this:
