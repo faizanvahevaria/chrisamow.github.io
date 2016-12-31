@@ -8,7 +8,7 @@ comments: true
 {% include JB/setup %}
 Some notes for running sqlalchemy on app engine / cloud sql - things missing from the [direct MySQLdb documentation](https://cloud.google.com/appengine/docs/python/cloud-sql/) or slight inaccuracies.  There have been many changes over the last few years so stackoverflow has a lot of outdated info.
   
-I like the proxy option so you can check the actual connection strings.  I used the unix sockets option, all the examples show that option being used so I haven't tried the tcp sockets
+I like the proxy option so you can check the actual connection strings but [debug locally](https://cloud.google.com/appengine/docs/python/tools/using-local-server).  I used the unix sockets option, all the examples show that option being used so I haven't tried the tcp sockets
   
   
 ## service account
