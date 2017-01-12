@@ -13,6 +13,12 @@ check these out too
 <https://github.com/255kb/stack-on-a-budget>
 
   
+Tracking this serverless stuff too...  
+<https://github.com/Miserlou/Zappa>
+  
+https://github.com/Miserlou/flask-zappa
+
+  
 30 minutes 32 cores, 32GB RAM, github integration
 <https://circleci.com>
   
