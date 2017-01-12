@@ -69,3 +69,9 @@ And to restore
 
 pip install --no-index --find-links=/path/to/save -r requirements.txt
 
+  
+  
+#investigate:
+  
+<https://github.com/miracle2k/webassets> supports Less, Sass, Coffeescript, ...
+
