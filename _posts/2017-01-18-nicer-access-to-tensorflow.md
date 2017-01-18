@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "nicer access to tensorflow"
-category: 
+category: deeplearning
 tags: [keras, tensorflow, ai]
 comments: true
 ---
