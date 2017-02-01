@@ -14,3 +14,6 @@ But it was so well captured...lol
   
 	I. Some weeks ago, at NodeConf Argentina, Mathias Bynens gave a presentation about RegExp and Unicode in JavaScript. At some point he showed a series of examples that yielded counter-intuitive results and said: “This is unfortunate and we’re stuck with it forever”. The phrase immediately resounded in my head, because to me it was a perfect definition of JavaScript, or at least the current state of JavaScript.  
   
+nice list (the reminders always trickle in, but when you see it all together it is almost unbelievable)  
+<https://whydoesitsuck.com/why-does-javascript-suck/>
+  
