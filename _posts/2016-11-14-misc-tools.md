@@ -36,6 +36,9 @@ mosh - limited mobile high latency ssh-like - apt-get single install for server/
 tilda - dropdown console, using it because the version of guake I can get working doesnt support multiple desktops well and building it from github is problematic because of anaconda interactions and the python-vte dependency
 
 
+chrome: adblockplus, vimium
+h264ify (request youtube in h264 instead of webm which doesn't have hw accel)
+
   
 # pip stuff
   
