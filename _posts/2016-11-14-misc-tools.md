@@ -73,6 +73,10 @@ And to restore
 pip install --no-index --find-links=/path/to/save -r requirements.txt
 
   
+
+#nas autoconnect utility
+gigolo - yeah, that's what I said...
+
   
 #investigate:
   
