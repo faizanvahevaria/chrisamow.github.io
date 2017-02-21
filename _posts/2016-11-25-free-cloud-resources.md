@@ -12,6 +12,9 @@ There are so many cool free cloud resources out there, trying to track them bett
 check these out too
 <https://github.com/255kb/stack-on-a-budget>
 
+cost comparison  
+<https://deploystack.io/>
+
   
 Tracking this serverless stuff too...  
 <https://github.com/Miserlou/Zappa>
