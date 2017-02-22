@@ -63,6 +63,10 @@ h264ify (request youtube in h264 instead of webm which doesn't have hw accel)
   
 click - easy commandline interface with help generation
   
+easyargs - very lightweight convenient - decorator, parsing, help gen
+  
+pipreqs - generate requirements.txt based on imports
+  
 
 To save:
 
