@@ -67,6 +67,8 @@ easyargs - very lightweight convenient - decorator, parsing, help gen
   
 pipreqs - generate requirements.txt based on imports
   
+scraperwiki
+  
 
 To save:
 
