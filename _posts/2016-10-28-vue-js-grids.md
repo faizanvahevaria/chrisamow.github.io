@@ -18,6 +18,8 @@ favorite so far, editable seems to work well...
 but need to turn it into a .vue component?  
 <https://codepen.io/andrewcourtice/pen/VabXQV>
   
+UPDATED!! (vue2 but not complete) 2/25/2017 <https://codepen.io/andrewcourtice/full/woQzpa/>
+  
   
 <https://github.com/BastianHofmann/vue-grid>
   
