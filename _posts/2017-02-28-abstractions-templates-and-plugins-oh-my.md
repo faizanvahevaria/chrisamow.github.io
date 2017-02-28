@@ -11,3 +11,6 @@ For some reason I love making workbenches.  So we can't have these grinding whee
   
   
 <img src="/images/workbench2.jpg" width="400" class="rotateimg90" >
+  
+Don't make fun of me for my awesome matching yellow racing theme, or I'll put the yellow hammer and magnet strip in the picture too!
+
