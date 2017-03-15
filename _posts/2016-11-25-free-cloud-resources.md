@@ -7,6 +7,9 @@ comments: true
 ---
 {% include JB/setup %}
 
+170315 wow - low cost bare metal
+<https://robot.your-server.de/order/market>
+  
 There are so many cool free cloud resources out there, trying to track them better:
 
 check these out too
