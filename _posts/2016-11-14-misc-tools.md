@@ -63,6 +63,7 @@ h264ify (request youtube in h264 instead of webm which doesn't have hw accel)
   
 click - easy commandline interface with help generation
   
+I think I might like [plac](https://github.com/micheles/plac) better, but there's also  
 easyargs - very lightweight convenient - decorator, parsing, help gen
   
 pipreqs - generate requirements.txt based on imports
