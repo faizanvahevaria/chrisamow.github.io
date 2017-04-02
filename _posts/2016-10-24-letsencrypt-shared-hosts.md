@@ -43,8 +43,9 @@ Then the directory will look like:
 	   |-certs
 	   |---joedomain.com
 
-And the joedomain.com/ will have the two things you need for the arvixe cpanel ssl gui
-
+And the joedomain.com/ will have the two things you need for the arvixe cpanel gui in:
+security:ssl/tls:Manage SSL sites:(Install an SSL Website section, select domain from dropdown)
+  
 	cert-1477216360.csr  cert.pem              fullchain-1477216360.pem  privkey.pem
 	cert-1477216360.pem  chain-1477216360.pem  fullchain.pem
 	cert.csr             chain.pem             privkey-1477216360.pem
@@ -60,4 +61,6 @@ nice!
 
 
 2016-11-30 [even stronger secureness](https://gist.github.com/mapmeld/a9bcac46d1f486f81664814a799e5897)
+
+2017-04-01 nice tool to check status <https://www.sslshopper.com/ssl-checker.html>
 
