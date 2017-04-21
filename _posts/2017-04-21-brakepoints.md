@@ -22,7 +22,7 @@ OSHA approved vehicle raising
 Thank you internet for revealing the importance of changing the brakeclips too  
 <img src="/images/brakepadclips.jpg" width="400"/>
   
-After watching a million youtube vids, I still hadn't internalized that not only does the caliper piston need to be pushed back with the c-clamp trick, but also the bolt points also slide (which makes sense when you think about it!)  If they are out when you go to slide the caliper on, it looks im-tetrisable.  My first thoughts were, no those don't move, the bolts need to be stabilized by them.  Wrong.
+After watching a million youtube vids, I still hadn't internalized that not only does the caliper piston need to be pushed back with the c-clamp trick, but also the bolt points also slide (which makes sense when you think about it!)  If they are out when you go to slide the caliper on, it looks im-tetrisable.  My first thoughts were, no those don't move, the bolts need to be stabilized by them.  Wrong.  
 <img src="/images/brakesfrontview.jpg" width="300"/>
   
 It all went pretty smoothly all things considered, for the left side - out of daylight, surely the other side would be a slam dunk in the morning, right?  
@@ -31,4 +31,4 @@ This is why you should not let your weekend chores slip into monday - things lik
 <img src="/images/brakedthebolt.jpg" width="300"/>  
 broken wheel stud
   
-I never expected discount tire to actually help me out for free on this (they probably are the ones that crossthreaded it or otherwise jammed it on pneumagically on the last tire change.  But they did!  Happy ending!
+I never expected discount tire to actually help me out for free on this (although they probably are the ones that crossthreaded it or otherwise jammed it on pneumagically on the last tire change.  But they did!  Happy ending!
