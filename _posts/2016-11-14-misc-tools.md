@@ -37,7 +37,7 @@ tilda - dropdown console, using it because the version of guake I can get workin
   
   
 silversearcher-ag
-faster than awk - multi core aware
+faster than awk - multi core aware also ignores .gitignore
   
   
 chrome: adblockplus, vimium
