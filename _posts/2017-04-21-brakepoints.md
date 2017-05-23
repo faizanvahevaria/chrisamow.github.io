@@ -33,3 +33,8 @@ This is why you should not let your weekend chores slip into monday - things lik
 broken wheel stud
   
 I never expected discount tire to actually help me out for free on this (although they probably are the ones that crossthreaded it or otherwise jammed it on pneumagically on the last tire change.  But they did!  Happy ending!
+  
+  
+epilogue:
+May 20: Now I've managed to change the serpentine belt.  Although I did seem to find myself in a predicament that noone else on the many videos I watched runs into (the wrench used to loosen the tensioner gets trapped under tension after the belt is removed - and is very annoyingly in the way.)  It is stressful knowing that you are messing with a part of the system that drives the other critical systems - and I found out how painfully hot parts of the engine get just running a few minutes.  Nevertheless, I am declaring victory on this one and exiting stage left... (feels like the matrix "i know kung fu" / billion)
+
