@@ -14,10 +14,12 @@ Here's what I did:
 - add a devbuild option to package.json  
 - in main.js, export functionality we'll be calling from our js (e.g. Vue, App, etc.)  
 	(comment out the app instance)  
-- html, assign handy alias variables to the exports  
-	fix up the paths (remove leading slashes) so the static files are found without npm dev  
-	instantiate the app here or external js file  
 - webpack.config.json, put library entry in output field  
 	libraryTarget defaults to 'var' which is fine  
+- html, make sure to have an entry for the .js file created by webpack  
+	assign handy alias variables to the exports  
+	fix up the paths (remove leading slashes) so the static files are found without npm dev  
+	instantiate the app here or external js file  
+- npm run devbuild  
   
 nicccceeeeee  
