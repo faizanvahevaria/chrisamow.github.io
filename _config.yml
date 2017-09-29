@@ -11,12 +11,12 @@ defaults:
       layout: "default"
       comments: true
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "assets/themes/bootstrap-3/bootstrap"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "assets/themes/bootstrap-chris/bootstrap", "*.chris"]
 #directory already being watched error on bootstrap seems to be because the Listen gem
 #watches all directories and then just filters the reporting
 #https://talk.jekyllrb.com/t/how-to-exclude-a-file-directory-from-watch/1940/12
 #https://github.com/jekyll/jekyll-watch/blob/master/lib/jekyll/watcher.rb#L57
-#copying instead of symlinking bootstrap-3/bootstrap -> bootstrap
+#copying instead of symlinking bootstrap-chris/bootstrap -> bootstrap
 
 #highlighter: pygments    #not supported by github
 highlighter: rouge
